@@ -160,7 +160,12 @@ public class AWSOperatorS3Service {
         return true;
     }
 
-    // TODO: not complete
+    /**
+     * overwrite copy folder on s3
+     * @param s3SourceFolder
+     * @param s3DestFolder
+     * @return true if successful
+     */
     public boolean copyFolder(String s3SourceFolder, String s3DestFolder){
         try {
             List<S3ObjectSummary> fileList = s3Client.listObjectsV2(bucketName, s3SourceFolder).getObjectSummaries();
