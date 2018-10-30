@@ -8,6 +8,6 @@ This is a java repo for aws utils
 + git remote add origin https://github.com/Bingo0408/aws-utils.git
 + git push -u origin master
 
-## aws-s3-utils
+## AWSOperatorS3Service.java
 + provides java uitls to process s3 objects
 
